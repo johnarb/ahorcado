@@ -9,7 +9,7 @@ Given Inicio la aplicacion
 Then debo ver "Ahorcado"
 
 Scenario: Registro Jugador
-Given inicio la aplicacion
+Given Inicio la aplicacion
 When ingreso mi nombre "Victoria"
 And Inicio el juego
 Then debo ver "Victoria"
