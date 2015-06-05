@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-"holamundo"
+"holamundo1"
 end
