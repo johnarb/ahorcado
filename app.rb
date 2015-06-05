@@ -6,5 +6,8 @@ erb :RegistroJuego
 
 get '/jugar' do
     @@jugador = params["txtNombre"]
+    arr = "scrum"
+
+    @@palabra = "_" * arr.length
     erb :Juego
   end
